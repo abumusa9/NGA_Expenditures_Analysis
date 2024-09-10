@@ -1,10 +1,10 @@
-from dash import Dash, dcc, html, dash_table, Input, Output
+from dash import Dash, dcc, html, dash_table, Input, Output # type: ignore
 #import dash_core_components as dcc
-import dash_bootstrap_components as dbc
-import pandas as pd; import numpy as np
-import plotly.express as px
-import plotly.graph_objects as go
-from plotly.subplots import make_subplots
+import dash_bootstrap_components as dbc # type: ignore
+import pandas as pd; import numpy as np # type: ignore
+import plotly.express as px # type: ignore
+import plotly.graph_objects as go # type: ignore
+from plotly.subplots import make_subplots # type: ignore
 
 pd.options.display.max_rows = 10
 
