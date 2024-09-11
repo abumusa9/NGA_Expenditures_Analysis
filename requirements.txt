@@ -1,4 +1,4 @@
-dash==0.5.11
+dash==0.42.0
 numpy
 pandas
 scikit_learn
